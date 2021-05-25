@@ -7,11 +7,11 @@ To build the C++ code, run:
 
 After building, to run our code, run:
 ```
-  ./mp 	-t 	<application type, 0: social, 1: video> 					# default: 0
-		    -a 	<algorithm type, 0: FastProb, 1: ThrGreedy, 2: Greedy, 3: ResGreedy, 4: SplitGrow> 	# default: 0
-		    -b 	<total budget> 									# default: 20
-		    -k 	<number of groups> 								# default: 2
-		    -p 	<number of threads> 								# default: 10
+  ./mp 	-t 	<application type, 0: social, 1: video> 						# default: 0
+	-a 	<algorithm type, 0: FastProb, 1: ThrGreedy, 2: Greedy, 3: ResGreedy, 4: SplitGrow> 	# default: 0
+	-b 	<total budget> 										# default: 20
+	-k 	<number of groups> 									# default: 2
+	-p 	<number of threads> 									# default: 10
 ```
 Or:
 ```
